@@ -1,0 +1,13 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --color1: #FF6700;
+    --color2: #EBEBEB;
+    --color3: #C0C0C0;
+    --color4: #3A6EA5;
+    --color5: #004E98;
+}
