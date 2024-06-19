@@ -1,4 +1,4 @@
 let typedAnimation = new Typed('#element', {
-    strings: ['Game Developer', '&amp; Web Developer'],
+    strings: ["Game Developer", ", Web Developer", "&amp; Software Engineer."],
     typeSpeed: 75,
   });
