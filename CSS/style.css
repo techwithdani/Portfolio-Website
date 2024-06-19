@@ -1,3 +1,11 @@
+:root {
+    --color1: #FF6700;
+    --color2: #EBEBEB;
+    --color3: #C0C0C0;
+    --color4: #3A6EA5;
+    --color5: #004E98;
+}
+
 * {
     padding: 0;
     margin: 0;
@@ -8,12 +16,8 @@
     font-style: normal;
 }
 
-:root {
-    --color1: #FF6700;
-    --color2: #EBEBEB;
-    --color3: #C0C0C0;
-    --color4: #3A6EA5;
-    --color5: #004E98;
+body {
+    background-color: var(--color2);
 }
 
 a {
