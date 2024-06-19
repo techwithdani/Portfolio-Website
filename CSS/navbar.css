@@ -1,0 +1,9 @@
+.logo-section p {
+    font-size: 25px;
+    color: var(--color5);
+}
+
+.colored-text {
+    color: var(--color1);
+    font-size: 50px;
+}
