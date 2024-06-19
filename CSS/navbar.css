@@ -1,9 +1,42 @@
-.logo-section p {
-    font-size: 25px;
-    color: var(--color5);
+.background-image {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.527),rgba(0, 0, 0, 0.5)) , url(../Images/BackgroundImage.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100vw;
+    height: 75vh;
+    position: relative;
+}
+
+.navigation-bar {
+    position: absolute;
+    top: 20px;
+    background: linear-gradient(rgba(0, 0, 0, 0.6),rgba(0, 0, 0, 0.6)) , var(--color3);
+    opacity: 0.9;
+    width: 100vw;
+    height: 4rem;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
 }
 
 .colored-text {
     color: var(--color1);
-    font-size: 50px;
+    font-size: 40px;
+}
+
+.logo-section p {
+    font-size: 25px;
+    color: var(--color2);
+}
+
+.options {
+    list-style: none;
+    display: flex;
+    justify-content: space-evenly;
+    color: var(--color2);
+}
+
+.options li {
+    margin-left: 50px;
 }

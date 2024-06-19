@@ -15,3 +15,7 @@
     --color4: #3A6EA5;
     --color5: #004E98;
 }
+
+a {
+    text-decoration: none;
+}
