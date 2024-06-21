@@ -54,3 +54,11 @@
 .bold-text {
     font-weight: 1000;
 }
+
+.list-about-me {
+    margin-left: 15px;
+}
+
+.list-about-me li {
+    margin-top: 10px;
+}
