@@ -50,3 +50,7 @@
     font-size: 1.1rem;
     margin-bottom: 20px;
 }
+
+.bold-text {
+    font-weight: 1000;
+}
