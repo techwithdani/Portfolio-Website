@@ -1,6 +1,6 @@
 .brief-description {
     margin-top: 6rem;
-    width: 80vw;
+    width: 100vw;
     height: 50vh;
     display: flex;
     justify-content: space-evenly;
@@ -13,7 +13,6 @@
     border: 5px solid var(--color5);
     height: 370px;
     width: 370px;
-    left: 155px;
 }
 
 .development-image {
@@ -32,7 +31,6 @@
     width: 25vw;
     height: auto;
     position: relative;
-    left: 45px;
 }
 
 .my-name {
@@ -43,7 +41,7 @@
 .my-skills {
     font-size: 1.5rem;
     margin-bottom: 15px;
-    color: var(--color1);
+    color: var(--color4);
 }
 
 .my-brief-description {
