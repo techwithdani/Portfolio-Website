@@ -1,0 +1,10 @@
+.my-skills-section {
+    width: 100vw;
+    height: 50vh;
+    margin-top: 6rem;
+}
+
+.skills-heading {
+    text-align: center;
+    font-size: 1.3rem;
+}
