@@ -1,10 +1,22 @@
-.my-skills-section {
-    width: 100vw;
-    height: 50vh;
-    margin-top: 6rem;
-}
-
 .skills-heading {
     text-align: center;
     font-size: 1.3rem;
+    margin-top: 5rem;
+}
+
+.my-skills-section {
+    width: 100vw;
+    height: 50vh;
+    margin-top: 3rem;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.coding-skills-left-section, .coding-skills-right-section {
+    width: 45vw;
+    height: 90%;
+    display: grid;
+    grid-template-rows: repeat(2, 1fr);
+    grid-template-columns: repeat(4, 1fr);
 }
