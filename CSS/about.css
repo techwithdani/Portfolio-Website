@@ -3,9 +3,9 @@
     width: 100vw;
     height: 50vh;
     display: flex;
-    justify-content: space-evenly;
+    justify-content: center;
     align-items: center;
-    position: relative;
+    gap: 8rem;
 }
 
 .left-side-image {
@@ -28,7 +28,7 @@
 }
 
 .right-side-description {
-    width: 25vw;
+    width: 35vw;
     height: auto;
     position: relative;
 }
