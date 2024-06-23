@@ -34,7 +34,8 @@
     align-items: center;
 }
 
-.javascript-skill, .html-css-skill, .java-skill, .python-skill, .gdscript-skill, .csharp-skill, .godot-skill, .unity-skill{
+.javascript-skill, .html-css-skill, .java-skill, .python-skill,
+.gdscript-skill, .csharp-skill, .godot-skill, .unity-skill{
     width: 100%;
     height: 45%;
     padding: 2px;
@@ -62,27 +63,13 @@
     grid-column: 2/5;
 }
 
-.gdscript-skill {
-    grid-row: 13/14;
-    grid-column: 2/5;
-}
-
-.csharp-skill {
-    grid-row: 11/12;
-    grid-column: 2/5;
-}
-
 .godot-skill {
     grid-row: 3/4;
     grid-column: 1/4;
 }
 
-.unity-skill {
-    grid-row: 5/6;
-    grid-column: 1/4;
-}
-
-.javascript-heading, .html-css-heading, .java-heading, .python-heading, .gdscript-heading, .csharp-heading, .godot-heading, .unity-heading, .coding-skills, .game-dev-skills{
+.javascript-heading, .html-css-heading, .java-heading, .python-heading,
+.gdscript-heading, .csharp-heading, .godot-heading, .unity-heading, .coding-skills, .game-dev-skills{
     width: 100%;
     height: 100%;
     display: flex;
@@ -110,23 +97,8 @@
     grid-column: 2/3;
 }
 
-.gdscript-heading {
-    grid-row: 12/13;
-    grid-column: 2/3;
-}
-
-.csharp-heading {
-    grid-row: 10/11;
-    grid-column: 2/3;
-}
-
 .godot-heading {
     grid-row: 2/3;
-    grid-column: 1/2;
-}
-
-.unity-heading {
-    grid-row: 4/5;
     grid-column: 1/2;
 }
 
