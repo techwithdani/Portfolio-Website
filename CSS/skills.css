@@ -6,18 +6,18 @@
 
 .my-skills-section {
     width: 100vw;
-    height: 50vh;
-    margin-top: 1rem;
+    height: 80vh;
+    margin-top: 1.5rem;
     display: flex;
     justify-content: space-evenly;
     align-items: center;
 }
 
-.coding-skills-left-section, .coding-skills-right-section {
+.skills-left-section, .skills-right-section {
     width: 45vw;
-    height: 90%;
+    height: 100%;
     display: grid;
-    grid-template-rows: repeat(8, 1fr);
+    grid-template-rows: repeat(14, 1fr);
     grid-template-columns: repeat(4, 1fr);
     align-items: center;
     justify-items: center;
@@ -27,16 +27,16 @@
     background-color: var(--color1);
     color: var(--color2);
     border-radius: 1.8rem;
-    font-size: 0.9rem;
+    font-size: 0.8rem;
     text-align: left;
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
-.javascript-skill, .html-css-skill, .java-skill, .python-skill {
+.javascript-skill, .html-css-skill, .java-skill, .python-skill, .gdscript-skill, .csharp-skill, .godot-skill, .unity-skill{
     width: 100%;
-    height: 55%;
+    height: 45%;
     padding: 2px;
     border: 2px solid var(--color1);
     border-radius: 1.8rem;
@@ -53,16 +53,36 @@
 }
 
 .java-skill {
+    grid-row: 7/8;
+    grid-column: 2/5;
+}
+
+.python-skill {
+    grid-row: 9/10;
+    grid-column: 2/5;
+}
+
+.gdscript-skill {
+    grid-row: 13/14;
+    grid-column: 2/5;
+}
+
+.csharp-skill {
+    grid-row: 11/12;
+    grid-column: 2/5;
+}
+
+.godot-skill {
     grid-row: 3/4;
     grid-column: 1/4;
 }
 
-.python-skill {
+.unity-skill {
     grid-row: 5/6;
     grid-column: 1/4;
 }
 
-.javascript-heading, .html-css-heading, .java-heading, .python-heading, .coding-skills{
+.javascript-heading, .html-css-heading, .java-heading, .python-heading, .gdscript-heading, .csharp-heading, .godot-heading, .unity-heading, .coding-skills, .game-dev-skills{
     width: 100%;
     height: 100%;
     display: flex;
@@ -81,11 +101,31 @@
 }
 
 .java-heading {
+    grid-row: 6/7;
+    grid-column: 2/3;
+}
+
+.python-heading {
+    grid-row: 8/9;
+    grid-column: 2/3;
+}
+
+.gdscript-heading {
+    grid-row: 12/13;
+    grid-column: 2/3;
+}
+
+.csharp-heading {
+    grid-row: 10/11;
+    grid-column: 2/3;
+}
+
+.godot-heading {
     grid-row: 2/3;
     grid-column: 1/2;
 }
 
-.python-heading {
+.unity-heading {
     grid-row: 4/5;
     grid-column: 1/2;
 }
@@ -93,5 +133,11 @@
 .coding-skills {
     grid-row: 1/1;
     grid-column: 2/3;
+    font-size: 1.8rem;
+}
+
+.game-dev-skills {
+    grid-row: 1/1;
+    grid-column: 1/3;
     font-size: 1.8rem;
 }
