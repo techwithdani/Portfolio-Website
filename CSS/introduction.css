@@ -1,0 +1,63 @@
+.brief-description {
+    margin-top: 6rem;
+    width: 100vw;
+    height: 50vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 7.3rem;
+}
+
+.left-side-image {
+    position: relative;
+    border: 5px solid var(--color5);
+    height: 370px;
+    width: 370px;
+}
+
+.development-image {
+    height: 350px;
+    width: 350px;
+    position: absolute;
+    right: 50px;
+    top: 30px;
+    background-image: url(../Images/Development.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.right-side-description {
+    width: 35vw;
+    height: auto;
+    position: relative;
+}
+
+.my-name {
+    font-size: 2.5rem;
+    margin-bottom: 10px;
+}
+
+.my-skills {
+    font-size: 1.5rem;
+    margin-bottom: 15px;
+    color: var(--color1);
+    font-weight: 500;
+}
+
+.my-brief-description {
+    font-size: 1.1rem;
+    margin-bottom: 20px;
+}
+
+.bold-text {
+    font-weight: 1000;
+}
+
+.list-about-me {
+    margin-left: 18px;
+}
+
+.list-about-me li {
+    margin-top: 10px;
+}
